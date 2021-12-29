@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 .jumbotron{
-    background-image: url("../assetImg/roket2.png");
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-position: 85% 50%;
+    background-color: darkgray;
+    width: 100%;
     height: 80vh;
+}
+@media (max-width: 890px) {
+    #navbarSupportedContent{
+        flex-direction: column;
+        animation-duration: 4s;
+    }
+    .btn-nav{
+        margin-top: 2rem;
+    }
+    .jumbotron{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
