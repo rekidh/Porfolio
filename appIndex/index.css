@@ -1,3 +1,10 @@
+
+
+:root {
+    ---color-primary:#E3DFDC;
+    ---secondary-color:#fff;
+
+}
 *{
     padding: 0;
     margin: 0;
@@ -23,4 +30,17 @@
 }
 .img{
     height: 50px;
+}
+.color-nav{
+    background-color: var(---color-primary);
+}
+.color-sec{
+    background-color: var(---secondary-color);
+}
+.color-primary{
+    background-color: var(---color-primary);
+}
+.btn-color{
+    background-color: var(---secondary-color);
+    color: var(---color-primary);
 }
