@@ -23,13 +23,10 @@
     .btn-nav{
         margin-top: 2rem;
     }
-    .jumbotron{
-        display: flex;
-        flex-direction: column-reverse;
-    }
 }
-.img{
+.row .img {
     height: 50px;
+    width: 12rem;
 }
 .color-nav{
     background-color: var(---color-primary);
